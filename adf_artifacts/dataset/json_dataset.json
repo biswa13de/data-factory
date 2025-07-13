@@ -1,0 +1,19 @@
+{
+	"name": "json_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLSGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "people",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
