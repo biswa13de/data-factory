@@ -1,0 +1,12 @@
+{
+	"name": "LS_RestService1",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://gist.githubusercontent.com/raine/da15845f332a2fb8937b344504abfbe0/raw/37cb62958ebf41ce931c7236b5453838a1f17d9c/people.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
