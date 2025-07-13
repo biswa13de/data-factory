@@ -1,0 +1,15 @@
+{
+	"name": "bm-prac-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "a7a95a52-b17f-43a8-a378-d6db5f06ce22",
+		"tenantId": "7e9eb1e2-0714-4d8f-b253-64998c45479d",
+		"userAssignedIdentities": {
+			"/subscriptions/9477085c-89a5-4f8c-b66a-8049ec43d728/resourcegroups/rg-interview-prep/providers/Microsoft.ManagedIdentity/userAssignedIdentities/adfmanagedidentity": {
+				"clientId": "168d39f0-368e-441f-b6d2-06d6374386c0",
+				"principalId": "8436e81c-1720-4917-8475-cafa2d32b42f"
+			}
+		}
+	}
+}
