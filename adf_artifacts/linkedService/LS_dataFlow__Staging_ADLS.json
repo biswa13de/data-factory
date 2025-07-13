@@ -1,0 +1,14 @@
+{
+	"name": "LS_dataFlow__Staging_ADLS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://interviewprepdev1.dfs.core.windows.net/",
+			"credential": {
+				"referenceName": "credential1",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}
