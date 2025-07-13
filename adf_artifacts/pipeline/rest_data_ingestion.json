@@ -73,6 +73,13 @@
 						"referenceName": "json_dataflow",
 						"type": "DataFlowReference"
 					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "LS_ADLSGen2",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "raw/data_flow_storage"
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
