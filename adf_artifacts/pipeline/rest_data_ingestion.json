@@ -116,8 +116,10 @@
 					"url": "https://prod-75.eastus.logic.azure.com:443/workflows/bb790b9dc2a7463893e235daaea657d5/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=xC-9hVxEHmYu8eKL-hXGwmXXwihrhviKdyAVKAP2bpI",
 					"body": {
 						"pipeline": "@pipeline().Pipeline",
-						"activity": "@activity('json_data_flow').name",
-						"error": "@activity('json_data_flow').error.message"
+						"pipelineRunId": "@pipeline().RunId",
+						"activity": "json_data_flow",
+						"status": "@activity('json_data_flow').Status",
+						"error": "@string(activity('json_data_flow').Error.message)"
 					}
 				}
 			}
